@@ -56,11 +56,11 @@ export default function Hero() {
 
         <div className="relative z-10 flex flex-col items-center gap-4 sm:gap-6 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal leading-[90%] tracking-[-0.03em] text-black mix-blend-exclusion max-w-2xl">
-            Ускорьте ваш маркетинг
+            Бухгалтерия без головной боли
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl leading-[160%] text-black max-w-2xl px-4">
-            Дайте вашей команде свободу творить, а не настраивать. Создавайте, запускайте и масштабируйте цифровые продукты с уверенностью и скоростью.
+            Передайте учёт профессионалам и занимайтесь бизнесом. Мы берём на себя всю бухгалтерию, налоги и отчётность — вовремя и без ошибок.
           </p>
 
           <AnimatePresence initial={false}>
@@ -83,7 +83,7 @@ export default function Hero() {
                   onClick={handleExpand}
                   className="h-15 px-6 sm:px-8 py-3 text-lg sm:text-xl font-regular text-[#E3E3E3] tracking-[-0.01em] relative"
                 >
-                  Запросить демо
+                  Получить консультацию
                 </motion.button>
               </motion.div>
             )}
